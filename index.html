@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>[DEIN NAME] — Bewerbungsportfolio</title>
+  <title>Niklas Kiy — Bewerbungsportfolio</title>
 
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css" />
@@ -67,22 +67,52 @@
   </a>
 </div>
 
-<div class="col-lg-4 col-md-6">
-  <div class="project-card">
-    <div class="project-media">
-      <img src="assets/Rezept.png" alt="Rezept Layout Gestaltung">
-    </div>
-    <div class="project-body">
-      <h3>Rezept-Layout Design</h3>
-      <p>Gestaltung eines strukturierten Rezepts mit Fokus auf Typografie, Hierarchie und Lesbarkeit.</p>
-      <div class="tag-row">
-        <span class="tag">Layout</span>
-        <span class="tag">Typografie</span>
-        <span class="tag">Editorial</span>
+<section class="modal" id="project-rezept">
+  <a class="modal-overlay" href="#projects" aria-label="Schließen"></a>
+
+  <div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="rezept-title">
+    <header class="modal-head">
+      <div>
+        <p class="kicker mb-1">Projekt</p>
+        <h2 id="rezept-title" class="mb-0">Rezept-Layout Design</h2>
       </div>
+      <a class="btn btn-ghosty btn-sm" href="#projects">Schließen</a>
+    </header>
+
+    <div class="modal-content">
+
+      <div class="meta">
+        <div class="meta-box">
+          <h3>Aufgabe</h3>
+          <p>Rezeptseite gestalten (Struktur, Lesbarkeit, Hierarchie).</p>
+        </div>
+        <div class="meta-box">
+          <h3>Fokus</h3>
+          <p>Typografie, Raster, Abstände, klare Informationsführung.</p>
+        </div>
+        <div class="meta-box">
+          <h3>Tool</h3>
+          <p>InDesign / Illustrator (je nach dem, was du genutzt hast)</p>
+        </div>
+      </div>
+
+      <!-- Großes Bild -->
+      <div class="single-figure mt-3">
+        <img src="assets/Rezept.png" alt="Rezept Layout groß" loading="lazy">
+      </div>
+
+      <div class="project-text mt-3">
+        <h3>Ergebnis</h3>
+        <p class="muted">
+          Ziel war ein übersichtliches Layout mit klaren Abschnitten (Zutaten, Schritte),
+          guter Lesbarkeit und sinnvoller visueller Gewichtung.
+        </p>
+      </div>
+
     </div>
   </div>
-</div>
+</section>
+
 
       <!-- Platzhalter -->
       <div class="col-lg-4 col-md-6">
@@ -230,3 +260,4 @@
 
 </body>
 </html>
+
